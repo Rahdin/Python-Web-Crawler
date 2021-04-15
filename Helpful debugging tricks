@@ -1,2 +1,4 @@
-If the scraping does not execute properly you can use the scrappy shell and type response.css('(the relevant selector)').get() and response.css('(the relevant selector)').getall()
-instead of response.css('(the relevant selector)::text').get()
+ 1. If the scraping does not execute properly you can use the scrappy shell and type response.css('(the relevant selector)').get() and response.css('(the relevant selector)').getall()
+   instead of response.css('(the relevant selector)::text').get()
+ 2. If you are confused about what the class of a certain element is you can select it using the Chrome dev tool, right click and copy xpath and then paste the xpath copied directly 
+     into the response.xpath code.
