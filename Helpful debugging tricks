@@ -1,0 +1,2 @@
+If the scraping does not execute properly you can use the scrappy shell and type response.css('(the relevant selector)').get() and response.css('(the relevant selector)').getall()
+instead of response.css('(the relevant selector)::text').get()
